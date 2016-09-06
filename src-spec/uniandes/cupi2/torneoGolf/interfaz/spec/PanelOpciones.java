@@ -10,57 +10,57 @@ import index.I;
 public class PanelOpciones extends _PanelOpciones
 {
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1.</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1</p>
 	
 	*/
 	public final static String OPCION_1 = "Opción 1";
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Reiniciar.</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Reiniciar</p>
 	
 	*/
 	public final static String REINICIAR = "Reiniciar";
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2.</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2</p>
 	
 	*/
 	public final static String OPCION_2 = "Opción 2";
 	
 
 	/**
-	* <p>Bot&oacute;n para la opci&oacute;n 2.</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1</p>
 	
 	*/
-	@UIBoton( comando = " ", label = " ", metodo = I.)
-	private JButton btnOpcion2;
+	private String OPCION_1="Opción 1"; 	
 	
 	/**
-	* <p>Bot&oacute;n para reiniciar.</p>
+	* <p>Bot&oacute;n para reiniciar</p>
 	
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
 	private JButton btnReiniciar;
 	
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1.</p>
+	* <p>Bot&oacute;n para la opci&oacute;n 2</p>
 	
 	*/
-	private String OPCION_1="Opción 1"; 	
+	@UIBoton( comando = " ", label = " ", metodo = I.)
+	private JButton btnOpcion2;
 	
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Reiniciar.</p>
-	
-	*/
-	private String REINICIAR="Reiniciar"; 	
-	
-	/**
-	* <p>Bot&oacute;n para la opci&oacute;n 1.</p>
+	* <p>Bot&oacute;n para la opci&oacute;n 1</p>
 	
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
 	private JButton btnOpcion1;
 	
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2.</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Reiniciar</p>
+	
+	*/
+	private String REINICIAR="Reiniciar"; 	
+	
+	/**
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2</p>
 	
 	*/
 	private String OPCION_2="Opción 2"; 	

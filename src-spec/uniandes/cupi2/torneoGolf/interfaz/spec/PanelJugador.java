@@ -10,58 +10,58 @@ import index.I;
 public class PanelJugador extends _PanelJugador
 {
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada.</p>
+	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada</p>
 	
 	*/
 	public final static String REGISTRAR_JUGADA = "Registrar Jugada";
 	
 
 	/**
-	* <p>Bot&oacute;n para registrar la jugada.</p>
+	* <p>Bot&oacute;n para registrar la jugada</p>
 	
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
 	private JButton btnRegistrarJugada;
 	
 	/**
-	* <p>Atributo para saber cual es el&nbsp;jugador del cual se esta&nbsp;muestrando&nbsp;en el panel.</p>
+	* <p>Atributo para saber cual es el&nbsp;jugador del cual se esta&nbsp;muestrando&nbsp;en el panel</p>
 	
 	*/
 	private Integer numeroJugador; 	
 	
 	/**
-	* <p>Etiqueta para mostrar la imagen asociada al jugador.</p>
+	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada</p>
 	
 	*/
-	@UILabel(nombre = " Imagen ")
-	private JLabel lblImagen;
+	private String REGISTRAR_JUGADA="Registrar Jugada"; 	
 	
 	/**
-	* <p>Etiqueta para mostrar el dinero recudado por el jugador.</p>
-	
-	*/
-	@UILabel(nombre = " DineroRecaudado ")
-	private JLabel lblDineroRecaudado;
-	
-	/**
-	* <p>Etiqueta para mostrar el n&uacute;mero de golpes dados por el jugador.</p>
+	* <p>Etiqueta para mostrar el n&uacute;mero de golpes dados por el jugador</p>
 	
 	*/
 	@UILabel(nombre = " NumeroGolpes ")
 	private JLabel lblNumeroGolpes;
 	
 	/**
-	* <p>Etiqueta para mostrar el hoyo en el que el jugador se encuentra actualmente.</p>
+	* <p>Etiqueta para mostrar el hoyo en el que el jugador se encuentra actualmente</p>
 	
 	*/
 	@UILabel(nombre = " HoyoActual ")
 	private JLabel lblHoyoActual;
 	
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada.</p>
+	* <p>Etiqueta para mostrar el dinero recudado por el jugador</p>
 	
 	*/
-	private String REGISTRAR_JUGADA="Registrar Jugada"; 	
+	@UILabel(nombre = " DineroRecaudado ")
+	private JLabel lblDineroRecaudado;
+	
+	/**
+	* <p>Etiqueta para mostrar la imagen asociada al jugador</p>
+	
+	*/
+	@UILabel(nombre = " Imagen ")
+	private JLabel lblImagen;
 	
 	
 
