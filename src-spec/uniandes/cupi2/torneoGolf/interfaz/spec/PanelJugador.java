@@ -17,11 +17,11 @@ public class PanelJugador extends _PanelJugador
 	
 
 	/**
-	* <p>Etiqueta para mostrar el dinero recudado por el jugador</p>
+	* <p>Etiqueta para mostrar la imagen asociada al jugador</p>
 	
 	*/
-	@UILabel(nombre = " DineroRecaudado ")
-	private JLabel lblDineroRecaudado;
+	@UILabel(nombre = " Imagen ")
+	private JLabel lblImagen;
 	
 	/**
 	* <p>Etiqueta para mostrar el hoyo en el que el jugador se encuentra actualmente</p>
@@ -29,6 +29,13 @@ public class PanelJugador extends _PanelJugador
 	*/
 	@UILabel(nombre = " HoyoActual ")
 	private JLabel lblHoyoActual;
+	
+	/**
+	* <p>Etiqueta para mostrar el dinero recudado por el jugador</p>
+	
+	*/
+	@UILabel(nombre = " DineroRecaudado ")
+	private JLabel lblDineroRecaudado;
 	
 	/**
 	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada</p>
@@ -44,24 +51,17 @@ public class PanelJugador extends _PanelJugador
 	private JLabel lblNumeroGolpes;
 	
 	/**
-	* <p>Etiqueta para mostrar la imagen asociada al jugador</p>
+	* <p>Bot&oacute;n para registrar la jugada</p>
 	
 	*/
-	@UILabel(nombre = " Imagen ")
-	private JLabel lblImagen;
+	@UIBoton( comando = " ", label = " ", metodo = I.)
+	private JButton btnRegistrarJugada;
 	
 	/**
 	* <p>Atributo para saber cual es el&nbsp;jugador del cual se esta&nbsp;muestrando&nbsp;en el panel</p>
 	
 	*/
 	private Integer numeroJugador; 	
-	
-	/**
-	* <p>Bot&oacute;n para registrar la jugada</p>
-	
-	*/
-	@UIBoton( comando = " ", label = " ", metodo = I.)
-	private JButton btnRegistrarJugada;
 	
 	
 

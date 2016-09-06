@@ -10,11 +10,6 @@ import index.I;
 public class PanelOpciones extends _PanelOpciones
 {
 	/**
-	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1</p>
-	
-	*/
-	public final static String OPCION_1 = "Opción 1";
-	/**
 	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2</p>
 	
 	*/
@@ -24,27 +19,19 @@ public class PanelOpciones extends _PanelOpciones
 	
 	*/
 	public final static String REINICIAR = "Reiniciar";
-	
-
-	/**
-	* <p>Bot&oacute;n para la opci&oacute;n 2</p>
-	
-	*/
-	@UIBoton( comando = " ", label = " ", metodo = I.)
-	private JButton btnOpcion2;
-	
 	/**
 	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1</p>
 	
 	*/
-	private String OPCION_1="Opción 1"; 	
+	public final static String OPCION_1 = "Opción 1";
 	
+
 	/**
-	* <p>Bot&oacute;n para la opci&oacute;n 1</p>
+	* <p>Bot&oacute;n para reiniciar</p>
 	
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
-	private JButton btnOpcion1;
+	private JButton btnReiniciar;
 	
 	/**
 	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 2</p>
@@ -59,11 +46,24 @@ public class PanelOpciones extends _PanelOpciones
 	private String REINICIAR="Reiniciar"; 	
 	
 	/**
-	* <p>Bot&oacute;n para reiniciar</p>
+	* <p>Comando para ejecutar la acci&oacute;n del bot&oacute;n Opci&oacute;n 1</p>
+	
+	*/
+	private String OPCION_1="Opción 1"; 	
+	
+	/**
+	* <p>Bot&oacute;n para la opci&oacute;n 2</p>
 	
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
-	private JButton btnReiniciar;
+	private JButton btnOpcion2;
+	
+	/**
+	* <p>Bot&oacute;n para la opci&oacute;n 1</p>
+	
+	*/
+	@UIBoton( comando = " ", label = " ", metodo = I.)
+	private JButton btnOpcion1;
 	
 	
 
