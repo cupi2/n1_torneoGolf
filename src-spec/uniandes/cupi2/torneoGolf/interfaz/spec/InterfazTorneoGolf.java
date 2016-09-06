@@ -14,6 +14,26 @@ public class InterfazTorneoGolf extends _InterfazTorneoGolf
 {
 
 	/**
+	* <p>Constante que representa el Jugador 4.</p>
+	
+	*/
+	public final static int JUGADOR_4 = 4;
+	/**
+	* <p>Constante que representa el Jugador 3.</p>
+	
+	*/
+	public final static int JUGADOR_3 = 3;
+	/**
+	* <p>Constante que representa el Jugador 1</p>
+	
+	*/
+	public final static int JUGADOR_1 = 1;
+	/**
+	* <p>Constante que representa el Jugador&nbsp;2.</p>
+	
+	*/
+	public final static int JUGADOR_2 = 2;
+	/**
 	* <span style="font-size: 12.8px;">Constante que representa el área 4.</span>
 	*/
 	public final static Integer JUGADOR_4 = 4;
@@ -132,6 +152,14 @@ public class InterfazTorneoGolf extends _InterfazTorneoGolf
 	/**
 	* 
 	*/
+	public void reqFuncOpcion1() {
+	
+	}
+
+
+	/**
+	* 
+	*/
 	public void reqFuncOpcion2()
 	{
 	
@@ -149,7 +177,23 @@ public class InterfazTorneoGolf extends _InterfazTorneoGolf
 
 
 
-    // -----------------------------------------------------------------
+    /**
+	* 
+	*/
+	public void reqFuncOpcion2() {
+	
+	}
+
+
+	/**
+	* 
+	*/
+	public void registrarJugada(int pNumeroJugador, int pNumeroGolpes) {
+	
+	}
+
+
+				// -----------------------------------------------------------------
     // Puntos de Extensión
     // -----------------------------------------------------------------
 

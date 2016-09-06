@@ -10,48 +10,56 @@ import index.I;
 public class PanelJugador extends _PanelJugador
 {
 	/**
-	* Comando para ejecutar la acción del botón Reiniciar.
+	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada.</p>
+	
 	*/
 	public final static String REGISTRAR_JUGADA = "Registrar Jugada";
 	
 
 	/**
-	* 
-	*/
-	@UILabel(nombre = " HoyoActual ")
-	private JLabel lblHoyoActual;
+	* <p>Bot&oacute;n para registrar la jugada.</p>
 	
-	/**
-	* 
-	*/
-	@UILabel(nombre = " Imagen ")
-	private JLabel lblImagen;
-	
-	/**
-	* 
 	*/
 	@UIBoton( comando = " ", label = " ", metodo = I.)
 	private JButton btnRegistrarJugada;
 	
 	/**
-	* 
+	* <p>Atributo para saber cual es el&nbsp;jugador del cual se esta&nbsp;muestrando&nbsp;en el panel.</p>
+	
 	*/
 	private Integer numeroJugador; 	
 	
 	/**
-	* 
+	* <p>Etiqueta para mostrar la imagen asociada al jugador.</p>
+	
 	*/
-	@UILabel(nombre = " Dinero ")
-	private JLabel lblDinero;
+	@UILabel(nombre = " Imagen ")
+	private JLabel lblImagen;
 	
 	/**
-	* 
+	* <p>Etiqueta para mostrar el dinero recudado por el jugador.</p>
+	
+	*/
+	@UILabel(nombre = " DineroRecaudado ")
+	private JLabel lblDineroRecaudado;
+	
+	/**
+	* <p>Etiqueta para mostrar el n&uacute;mero de golpes dados por el jugador.</p>
+	
 	*/
 	@UILabel(nombre = " NumeroGolpes ")
 	private JLabel lblNumeroGolpes;
 	
 	/**
-	* Comando para ejecutar la acción del botón Reiniciar.
+	* <p>Etiqueta para mostrar el hoyo en el que el jugador se encuentra actualmente.</p>
+	
+	*/
+	@UILabel(nombre = " HoyoActual ")
+	private JLabel lblHoyoActual;
+	
+	/**
+	* <p>Comando para ejecutar la acci&oacute;n de Registrar Jugada.</p>
+	
 	*/
 	private String REGISTRAR_JUGADA="Registrar Jugada"; 	
 	
@@ -60,7 +68,7 @@ public class PanelJugador extends _PanelJugador
 	/**
 	* 
 	*/
-	public void actualizar(Double pDinero, Integer pHoyoActual, Integer pNumeroGolpes)
+	public void actualizar(double pDineroRecaudado, int pHoyoActual, int pNumeroGolpes)
 	{
 	
 	}

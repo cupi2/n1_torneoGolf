@@ -45,6 +45,13 @@ public class Jugador extends _Jugador
 	/**
 	* 
 	*/
+	public void recaudarDinero(double pDineroRecaudado) {
+	
+	}
+
+	/**
+	* 
+	*/
 	public void reiniciar()
 	{
 	
@@ -95,6 +102,13 @@ public class Jugador extends _Jugador
 	*/
 	public Integer darHoyoActual()
 	{
+	
+	}
+
+	/**
+	* 
+	*/
+	public void agregarGolpes(int pNumeroGolpes) {
 	
 	}
 	
